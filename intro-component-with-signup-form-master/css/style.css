@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(0, 100%, 74%) ;
+}
+.container{
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+h1{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.section-info{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.section-buttom{
+    height: auto;
+    text-align: center;
+}
+.section-buttom button{
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    padding: 0.8rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.5rem 0rem 0rem #00000021;
+}
+.section-form{
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 1rem 0rem 0rem #00000021;
+    text-align: center;
+    max-width: 320px;
+
+}
+.data input{
+    width: 90%;
+    margin: 1.5rem auto;
+    height: 3rem;
+}
+.data button{
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    padding: 0.8rem;
+    width: 90%;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.5rem 0rem 0rem #00000021;
+}
+.form-terms{
+    color: hsl(246, 25%, 77%);
+}
+.form-terms strong{
+    color:hsl(0, 100%, 74%);
+}
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
